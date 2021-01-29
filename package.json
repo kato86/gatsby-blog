@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gatsby develop -p 5000 -o"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/kato86/gatsby-blog/issues"
   },
-  "homepage": "https://github.com/kato86/gatsby-blog#readme"
+  "homepage": "https://github.com/kato86/gatsby-blog#readme",
+  "dependencies": {
+    "gatsby": "^2.31.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
 }
